@@ -62,14 +62,14 @@ const Player = () => {
       showLyric: true,
       showReload: false,
       toggleMode: !isDesktop,
-      glassBg: false,
+      glassBg: true,
       showThemeSwitch: false,
       showMediaSession: true,
       restartCurrentOnPrev: true,
       quietUpdate: true,
       defaultPosition: {
-        top: 300,
-        left: 120,
+        right: 30,
+        bottom: 30,
       },
       volumeFade: { fadeIn: 200, fadeOut: 200 },
       renderAudioTitle: (audioInfo, isMobile) => (
