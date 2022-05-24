@@ -84,7 +84,10 @@ const Player = () => {
     const current = playerState.current || {}
     return {
       ...defaultOptions,
-      audioLists: playerState.queue.map((item) => item),
+      audioLists: playerState.queue.map((item) => ({
+        ...item,
+        lyric: item.lyric.replace(/^(\[[\d:.]+])(.*)\n\1(.*\n)/gm, '$1$2 $3'),
+      })),
       playIndex: playerState.playIndex,
       autoPlay: playerState.clear || playerState.playIndex === 0,
       clearPriorAudioLists: playerState.clear,
