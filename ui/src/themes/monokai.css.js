@@ -32,8 +32,10 @@ module.exports = `
     color: #fd971f !important
 }
 
-.music-player-lyric {
-    color: #fd971f !important
+.react-jinke-music-player-main .music-player-lyric {
+    color: #fd971f !important;
+    text-shadow: #272822 0 0 2px, #272822 0 0 2px, #272822 0 0 2px, #272822 0 0 2px, #272822 0 0 2px, #272822 0 0 2px, #272822 0 0 2px, #272822 0 0 2px !important;
+    font-weight: 700;
 }
 
 .audio-lists-panel-content .audio-item.playing, .audio-lists-panel-content .audio-item.playing svg {

@@ -117,4 +117,10 @@ module.exports = `
 .react-jinke-music-player-main.light-theme .audio-lists-panel .audio-item.playing, .react-jinke-music-player-main.light-theme .audio-lists-panel .audio-item.playing svg {
     color: #5f5fc4 !important
 }
+
+.react-jinke-music-player-main .music-player-lyric {
+    text-shadow: #fafafa 0 0 2px, #fafafa 0 0 2px, #fafafa 0 0 2px, #fafafa 0 0 2px, #fafafa 0 0 2px, #fafafa 0 0 2px, #fafafa 0 0 2px, #fafafa 0 0 2px !important;
+    font-weight: 700;
+    color: #3f51b5;
+}
 `

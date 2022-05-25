@@ -31,4 +31,10 @@ module.exports = `
     color: #5f5fc4
 }
 
+.react-jinke-music-player-main .music-player-lyric {
+    text-shadow: #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px;
+    font-weight: 700;
+    color: #90caf9;
+}
+
 `

@@ -36,5 +36,12 @@ export default {
   },
   player: {
     theme: 'dark',
+    stylesheet: `
+    .react-jinke-music-player-main .music-player-lyric {
+        text-shadow: #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px, #303030 0 0 2px;
+        font-weight: 700;
+        color: #4caf50;
+    }
+    `,
   },
 }

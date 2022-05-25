@@ -473,5 +473,12 @@ export default {
   },
   player: {
     theme: 'light',
+    stylesheet: `
+.react-jinke-music-player-main .music-player-lyric {
+    text-shadow: #f0f2f5 0 0 2px, #f0f2f5 0 0 2px, #f0f2f5 0 0 2px, #f0f2f5 0 0 2px, #f0f2f5 0 0 2px, #f0f2f5 0 0 2px, #f0f2f5 0 0 2px, #f0f2f5 0 0 2px !important;
+    font-weight: 700;
+    color: #287eff;
+}
+    `,
   },
 }
